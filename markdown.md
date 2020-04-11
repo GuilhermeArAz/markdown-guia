@@ -41,8 +41,8 @@ _Sendo que `---` transforma tudo que foi escrito acima em negrito e a linha ser�
 * Teste                =====     `*(espaço)Teste`
  
 - Teste                =====     `-(espaço)Teste`  
-   * Teste                    ==      `*(espaço)(espaço)(espaço)*(espaço)Teste`                    
-   - Teste                    ==      `-(espaço)(espaço)(espaço)-(espaço)Teste`                    
+   * Teste                    ==      `(espaço)(espaço)(espaço)*(espaço)Teste`                    
+   - Teste                    ==      `(espaço)(espaço)(espaço)-(espaço)Teste`                    
 - Teste                =====     `-(espaço)Teste`
 
 * Teste                =====     `*(espaço)Teste`
@@ -78,4 +78,40 @@ int(espaço)|(espaço)carac(espaço)|(espaço)real                      |    div
 03(espaço)|(espaço)zzz(espaço)|(espaço)22,2
 ```
 ***
+## MARCAR COMANDOS
+Para marcar comandos use \`\` crases por volta dos caracteres/comandos:
+``(caractere/comandos)`` == \`\(caractere/comandos\)\` 
+### Inserir códigos
+Para inserir códigos use \`\`\`(caractere/comandos)\`\`\` por volta dos caracteres/comandos:
+```
+sintaxe do código
+
+```
+\`\`\`
+`sintaxe do código`
+\`\`\`
+***
+## ADICIONAR EMOJI
+Para adicionar emoji no corpo de arquivos .md,issues e poll requests `:nome do emoji`.
+   - Os nomes dos emoji usado para o corpo dos arquivos são encontrados no [https://github.com/ikatyang](https://github.com/ikatyang/emoji-cheat-sheet)
+
+Para adicionar emoji nos titulos de issues e poll requests `:nome do emoji`
+   - Os nomes dos emoji usado nos titulos dos arquivos são encontrados no [https://emojipedia.org/](https://emojipedia.org/)
+***
+## CITAR PESSOAS
+Citar pessoas no texto basta colocar `@perfil da pessoa`
+Ex: @pauloreis7
+***
+## FAZER REPLY
+
+ Para se fazer o reply ,clique nas reticencias no canto superior direito dos comentário selecionado e nas opções escolha  `Quote reply`.
+   - É possivel fazer reply utilizando a sintaxe `>comentario` 
+Só é possivel  fazer um reply com comentarios da mesma Issue/poll request. 
+Ex: 
+> Visite o perfil @pauloreis7.
+
+
+
+
+
 
