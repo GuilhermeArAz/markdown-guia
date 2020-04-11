@@ -9,6 +9,7 @@ Locais em que se usa a linguagem Markdown no GitHub:
   * *Itálico* = `*Itálico* ou \Itálico\`
   * **Negrito** = `**negrito** ou __negrito__`
   * ~Riscado~ =  `~riscado~ ou ~~riscado~~`
+  * \*XXX\* = `\iguinora marcador`
 ***
 ## *TÍTULOS*
   * # Título nv1      
