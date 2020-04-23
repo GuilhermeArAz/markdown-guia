@@ -19,6 +19,10 @@ Locais em que se usa a linguagem Markdown no GitHub:
   * ### Título nv3
      `###(espaço)Título`
 ***
+## *ESPAÇOS*
+`&nbsp;`
+_Faz um espaço em branco entre os caracteres_  
+***
 ## *LINHAS*
 \---
 --- 
